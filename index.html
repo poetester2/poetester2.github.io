@@ -1,0 +1,1219 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>16禁止入三叶草 - 禁忌美学影像 | 暗黑实验视频厂牌</title>
+<meta name="description" content="16禁止入三叶草是一支专注禁忌美学与暗黑实验影像的视频厂牌，以十六道禁区之门重塑视觉语法，持续输出先锋短片与社区共创内容。">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --ink:#0a0d0b;
+  --ink2:#111614;
+  --ink3:#182019;
+  --moss:#0f3d2a;
+  --clover:#2fbf71;
+  --clover2:#7ff0a8;
+  --acid:#c9ff5e;
+  --blood:#b4ff2e;
+  --rust:#d4a24c;
+  --fog:#8aa398;
+  --paper:#e7f3ec;
+  --line:rgba(127,240,168,.16);
+  --glow:0 0 40px rgba(47,191,113,.35);
+}
+html{scroll-behavior:smooth}
+body{
+  background:var(--ink);
+  color:var(--paper);
+  font-family:"PingFang SC","Hiragino Sans GB","Source Han Sans SC","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  line-height:1.75;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--clover);color:#04120a}
+body::before{
+  content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(900px 600px at 12% -8%,rgba(47,191,113,.13),transparent 62%),
+    radial-gradient(700px 500px at 92% 18%,rgba(201,255,94,.07),transparent 60%),
+    radial-gradient(1000px 700px at 50% 108%,rgba(15,61,42,.5),transparent 66%);
+}
+body::after{
+  content:"";position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.05;
+  background-image:repeating-linear-gradient(0deg,transparent 0 2px,#7ff0a8 2px 3px);
+  mix-blend-mode:overlay;
+}
+.wrap{max-width:1240px;margin:0 auto;padding:0 28px;position:relative;z-index:2}
+a{color:inherit;text-decoration:none}
+
+/* ============ HEADER ============ */
+header.site{
+  position:fixed;top:0;left:0;right:0;z-index:60;
+  backdrop-filter:blur(16px);
+  background:linear-gradient(180deg,rgba(10,13,11,.92),rgba(10,13,11,.62));
+  border-bottom:1px solid var(--line);
+  transition:.4s;
+}
+header.site.scrolled{background:rgba(10,13,11,.97);box-shadow:0 12px 40px rgba(0,0,0,.55)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.02em}
+.brand .mark{
+  width:38px;height:38px;display:grid;place-items:center;
+  border-radius:10px;
+  background:linear-gradient(145deg,var(--moss),#061109);
+  border:1px solid rgba(127,240,168,.4);
+  box-shadow:inset 0 0 18px rgba(47,191,113,.35),0 0 20px rgba(47,191,113,.18);
+}
+.brand .mark svg{width:24px;height:24px}
+.brand .txt{font-size:16.5px;line-height:1.15}
+.brand .txt small{display:block;font-size:9.5px;letter-spacing:.34em;color:var(--fog);font-weight:500;margin-top:2px}
+nav.links{display:flex;gap:30px;font-size:14px;color:#cfe4d8}
+nav.links a{position:relative;padding:6px 0;transition:.28s;opacity:.82}
+nav.links a::after{
+  content:"";position:absolute;left:0;bottom:0;width:0;height:1.5px;
+  background:linear-gradient(90deg,var(--clover),var(--acid));transition:.32s;
+}
+nav.links a:hover{opacity:1;color:#fff}
+nav.links a:hover::after{width:100%}
+.nav-cta{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:10px 20px;border-radius:999px;font-size:13.5px;font-weight:700;
+  background:linear-gradient(135deg,var(--clover),#1f8f52);
+  color:#04120a;border:1px solid rgba(201,255,94,.5);
+  box-shadow:0 0 24px rgba(47,191,113,.35);
+  transition:.3s;white-space:nowrap;
+}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 6px 34px rgba(127,240,168,.5)}
+.burger{display:none;width:42px;height:42px;border-radius:10px;border:1px solid var(--line);background:rgba(255,255,255,.03);cursor:pointer;position:relative}
+.burger span{position:absolute;left:11px;width:20px;height:2px;background:var(--clover2);transition:.3s;border-radius:2px}
+.burger span:nth-child(1){top:14px}
+.burger span:nth-child(2){top:20px}
+.burger span:nth-child(3){top:26px}
+.burger.on span:nth-child(1){transform:rotate(45deg);top:20px}
+.burger.on span:nth-child(2){opacity:0}
+.burger.on span:nth-child(3){transform:rotate(-45deg);top:20px}
+
+/* ============ HERO ============ */
+.hero{position:relative;padding:170px 0 90px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:11.5px;letter-spacing:.32em;color:var(--clover2);
+  border:1px solid rgba(127,240,168,.3);border-radius:999px;
+  padding:7px 16px;margin-bottom:26px;background:rgba(47,191,113,.06);
+}
+.eyebrow i{width:6px;height:6px;border-radius:50%;background:var(--acid);box-shadow:0 0 10px var(--acid);animation:pulse 1.8s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
+h1{
+  font-size:clamp(38px,5.6vw,72px);
+  line-height:1.06;font-weight:900;letter-spacing:-.02em;
+  background:linear-gradient(160deg,#fff 8%,var(--clover2) 42%,#2fbf71 74%,#a9ffd0 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  text-shadow:0 0 70px rgba(47,191,113,.25);
+}
+h1 em{font-style:normal;position:relative;white-space:nowrap}
+h1 em::after{
+  content:"";position:absolute;left:0;right:0;bottom:4px;height:10px;
+  background:linear-gradient(90deg,rgba(201,255,94,.28),transparent);
+  z-index:-1;filter:blur(4px);
+}
+.hero-sub{margin-top:24px;font-size:16.5px;color:#b8cfc3;max-width:540px}
+.hero-sub strong{color:var(--clover2);font-weight:700}
+.hero-actions{display:flex;gap:14px;margin-top:36px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:14px 28px;border-radius:12px;font-size:14.5px;font-weight:700;
+  transition:.32s;cursor:pointer;border:1px solid transparent;
+}
+.btn-main{background:linear-gradient(135deg,var(--clover),#1a7f49);color:#04120a;box-shadow:0 10px 34px rgba(47,191,113,.3)}
+.btn-main:hover{transform:translateY(-3px);box-shadow:0 16px 46px rgba(127,240,168,.45)}
+.btn-ghost{border-color:rgba(127,240,168,.34);color:var(--clover2);background:rgba(127,240,168,.04)}
+.btn-ghost:hover{background:rgba(127,240,168,.11);border-color:var(--clover)}
+.hero-stats{display:flex;gap:34px;margin-top:48px;flex-wrap:wrap}
+.hero-stats div b{font-size:26px;color:#fff;font-weight:900;letter-spacing:-.02em}
+.hero-stats div b i{font-style:normal;color:var(--acid);font-size:15px;margin-left:2px}
+.hero-stats div p{font-size:11.5px;letter-spacing:.16em;color:var(--fog);margin-top:3px}
+
+/* Hero visual */
+.hero-visual{position:relative;height:460px}
+.gate{
+  position:relative;width:100%;height:100%;border-radius:22px;
+  background:radial-gradient(120% 110% at 30% 0%,rgba(47,191,113,.22),transparent 60%),linear-gradient(160deg,#0d1a12,#050a07);
+  border:1px solid rgba(127,240,168,.25);
+  overflow:hidden;
+  box-shadow:0 30px 90px rgba(0,0,0,.6),inset 0 0 90px rgba(47,191,113,.09);
+}
+.gate svg.cloverbig{position:absolute;inset:0;width:100%;height:100%;opacity:.9}
+.gate .ring{
+  position:absolute;border:1px dashed rgba(127,240,168,.25);border-radius:50%;
+  animation:spin 26s linear infinite;
+}
+.gate .r1{inset:9%;}
+.gate .r2{inset:22%;animation-duration:38s;animation-direction:reverse;border-color:rgba(201,255,94,.18)}
+.gate .r3{inset:35%;animation-duration:52s;border-style:dotted}
+@keyframes spin{to{transform:rotate(360deg)}}
+.gate .core{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:130px;height:130px;border-radius:50%;
+  background:radial-gradient(circle,rgba(201,255,94,.9),rgba(47,191,113,.5) 42%,transparent 72%);
+  filter:blur(2px);animation:breathe 5.2s ease-in-out infinite;
+}
+@keyframes breathe{0%,100%{transform:translate(-50%,-50%) scale(.9);opacity:.7}50%{transform:translate(-50%,-50%) scale(1.12);opacity:1}}
+.gate .badge16{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  font-size:44px;font-weight:900;color:#eaffd9;letter-spacing:-.04em;
+  text-shadow:0 0 30px rgba(201,255,94,.9);z-index:3;
+}
+.gate .badge16 small{display:block;text-align:center;font-size:10px;letter-spacing:.4em;color:var(--clover2);margin-top:2px;font-weight:600}
+.gate .scan{
+  position:absolute;left:0;right:0;height:90px;
+  background:linear-gradient(180deg,transparent,rgba(127,240,168,.13),transparent);
+  animation:scan 6s linear infinite;
+}
+@keyframes scan{0%{top:-90px}100%{top:100%}}
+.gate .corner{position:absolute;width:26px;height:26px;border-color:var(--acid);border-style:solid;opacity:.75}
+.gate .c1{top:16px;left:16px;border-width:2px 0 0 2px}
+.gate .c2{top:16px;right:16px;border-width:2px 2px 0 0}
+.gate .c3{bottom:16px;left:16px;border-width:0 0 2px 2px}
+.gate .c4{bottom:16px;right:16px;border-width:0 2px 2px 0}
+.gate .tag{
+  position:absolute;bottom:18px;left:50%;transform:translateX(-50%);
+  font-size:10.5px;letter-spacing:.3em;color:var(--clover2);opacity:.8;white-space:nowrap;
+}
+
+/* marquee */
+.marquee{
+  position:relative;z-index:2;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  background:rgba(5,10,7,.6);overflow:hidden;padding:16px 0;
+}
+.marquee-track{display:flex;gap:56px;width:max-content;animation:mq 38s linear infinite}
+.marquee-track span{font-size:13px;letter-spacing:.24em;color:#7fa48f;display:flex;align-items:center;gap:56px;white-space:nowrap}
+.marquee-track span::after{content:"✣";color:var(--clover);opacity:.7}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ============ SECTION COMMON ============ */
+section{position:relative;z-index:2;padding:100px 0}
+.sec-head{max-width:720px;margin-bottom:54px}
+.sec-tag{
+  display:inline-block;font-size:11px;letter-spacing:.34em;color:var(--clover2);
+  padding:5px 0;border-bottom:1px solid rgba(127,240,168,.35);margin-bottom:18px;
+}
+h2{font-size:clamp(26px,3.4vw,40px);font-weight:900;line-height:1.22;letter-spacing:-.015em}
+h2 .hi{color:var(--clover)}
+.sec-head p{margin-top:16px;color:#9fb8ab;font-size:15px;max-width:600px}
+
+/* ============ 16 GATES ============ */
+.gates{background:linear-gradient(180deg,transparent,rgba(15,61,42,.14),transparent)}
+.gate-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.gate-card{
+  position:relative;padding:26px 22px 24px;border-radius:14px;
+  background:linear-gradient(165deg,rgba(24,32,25,.85),rgba(10,14,11,.92));
+  border:1px solid rgba(127,240,168,.13);
+  transition:.36s;overflow:hidden;
+}
+.gate-card::before{
+  content:"";position:absolute;top:0;left:0;width:100%;height:2px;
+  background:linear-gradient(90deg,var(--clover),var(--acid));
+  transform:scaleX(0);transform-origin:left;transition:.4s;
+}
+.gate-card:hover{transform:translateY(-6px);border-color:rgba(127,240,168,.42);box-shadow:0 18px 44px rgba(0,0,0,.5),var(--glow)}
+.gate-card:hover::before{transform:scaleX(1)}
+.gate-card .num{
+  font-size:12px;font-weight:800;letter-spacing:.2em;color:var(--clover2);
+  display:flex;align-items:center;gap:8px;margin-bottom:14px;
+}
+.gate-card .num i{width:7px;height:7px;border-radius:50%;background:var(--acid);display:block;box-shadow:0 0 9px var(--acid)}
+.gate-card h3{font-size:16.5px;font-weight:800;margin-bottom:8px;color:#eafff2}
+.gate-card p{font-size:12.8px;color:#8fa79a;line-height:1.72}
+.gate-card .lock{
+  position:absolute;right:16px;top:18px;font-size:10px;letter-spacing:.14em;
+  color:#5f7d6c;border:1px solid rgba(127,240,168,.18);padding:2px 7px;border-radius:5px;
+}
+.gate-card.hot{border-color:rgba(201,255,94,.4);background:linear-gradient(165deg,rgba(47,191,113,.16),rgba(10,14,11,.94))}
+.gate-card.hot .lock{color:var(--acid);border-color:rgba(201,255,94,.5)}
+
+/* ============ WORKS ============ */
+.works-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.work{
+  position:relative;border-radius:16px;overflow:hidden;
+  background:#0c1310;border:1px solid rgba(127,240,168,.12);
+  transition:.38s;cursor:pointer;
+}
+.work:hover{transform:translateY(-8px);border-color:rgba(127,240,168,.45);box-shadow:0 24px 60px rgba(0,0,0,.58)}
+.work .thumb{position:relative;aspect-ratio:16/10;overflow:hidden;background:#07110c}
+.work .thumb svg{width:100%;height:100%;display:block;transition:.6s}
+.work:hover .thumb svg{transform:scale(1.06)}
+.work .play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(.8);
+  width:56px;height:56px;border-radius:50%;display:grid;place-items:center;
+  background:rgba(10,20,14,.62);border:1px solid var(--clover2);
+  backdrop-filter:blur(6px);opacity:0;transition:.36s;
+}
+.work:hover .play{opacity:1;transform:translate(-50%,-50%) scale(1)}
+.work .play svg{width:18px;height:18px;fill:var(--clover2)}
+.work .meta{padding:18px 20px 20px}
+.work .meta .row{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.work .meta .cat{font-size:10.5px;letter-spacing:.2em;color:var(--clover2)}
+.work .meta .dur{font-size:11px;color:#6f8a7a;font-variant-numeric:tabular-nums}
+.work .meta h3{font-size:16px;font-weight:800;color:#eafff2;margin-bottom:6px}
+.work .meta p{font-size:12.5px;color:#8ba295;line-height:1.7}
+
+/* ============ MANIFESTO ============ */
+.manifesto{display:grid;grid-template-columns:.95fr 1.05fr;gap:52px;align-items:center}
+.mani-visual{position:relative;height:420px;border-radius:18px;overflow:hidden;border:1px solid rgba(127,240,168,.2);background:linear-gradient(150deg,#0a1810,#050a07)}
+.mani-visual svg{position:absolute;inset:0;width:100%;height:100%}
+.mani-visual .veil{position:absolute;inset:0;background:radial-gradient(circle at 50% 55%,transparent 20%,rgba(5,10,7,.86) 78%)}
+.mani-visual .txt{
+  position:absolute;left:26px;bottom:24px;font-size:11px;letter-spacing:.3em;color:var(--clover2);opacity:.85;
+}
+.mani-list{list-style:none;display:flex;flex-direction:column;gap:18px;margin-top:30px}
+.mani-list li{
+  display:flex;gap:16px;padding:18px 20px;border-radius:12px;
+  background:rgba(24,32,25,.55);border:1px solid rgba(127,240,168,.1);transition:.3s;
+}
+.mani-list li:hover{background:rgba(24,32,25,.9);border-color:rgba(127,240,168,.32);transform:translateX(5px)}
+.mani-list .idx{
+  flex:none;width:34px;height:34px;border-radius:9px;display:grid;place-items:center;
+  font-size:12px;font-weight:800;color:#04120a;
+  background:linear-gradient(135deg,var(--clover2),var(--clover));
+}
+.mani-list h4{font-size:15px;font-weight:800;color:#eafff2;margin-bottom:4px}
+.mani-list p{font-size:13px;color:#8fa79a;line-height:1.7}
+
+/* ============ COMMUNITY ============ */
+.community{background:linear-gradient(180deg,transparent,rgba(15,61,42,.18),transparent)}
+.comm-layout{display:grid;grid-template-columns:1.35fr .65fr;gap:26px}
+.posts{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.post{
+  padding:22px;border-radius:14px;background:rgba(18,26,20,.72);
+  border:1px solid rgba(127,240,168,.12);transition:.32s;
+}
+.post:hover{border-color:rgba(127,240,168,.4);background:rgba(22,32,24,.92);transform:translateY(-4px)}
+.post .head{display:flex;align-items:center;gap:11px;margin-bottom:12px}
+.avatar{
+  width:36px;height:36px;border-radius:50%;display:grid;place-items:center;flex:none;
+  font-size:12px;font-weight:800;color:#04120a;
+  background:linear-gradient(140deg,var(--clover2),var(--moss));
+  border:1px solid rgba(201,255,94,.5);
+}
+.post .who{font-size:13px;font-weight:700;color:#dff5e8}
+.post .when{font-size:10.5px;color:#6f8a7a;letter-spacing:.08em}
+.post p{font-size:13px;color:#a3bbae;line-height:1.78}
+.post .foot{display:flex;gap:16px;margin-top:14px;font-size:11.5px;color:#6f8a7a}
+.post .foot span{display:flex;align-items:center;gap:5px;transition:.2s;cursor:pointer}
+.post .foot span:hover{color:var(--clover2)}
+.post .foot svg{width:13px;height:13px;fill:currentColor}
+
+.side-panel{
+  border-radius:14px;padding:24px;background:linear-gradient(165deg,rgba(47,191,113,.14),rgba(10,16,12,.94));
+  border:1px solid rgba(127,240,168,.25);display:flex;flex-direction:column;gap:18px;height:100%;
+}
+.side-panel h4{font-size:13px;letter-spacing:.2em;color:var(--clover2);font-weight:700}
+.side-panel .big{font-size:30px;font-weight:900;color:#fff;letter-spacing:-.02em}
+.side-panel .big small{font-size:12px;color:var(--fog);font-weight:500;letter-spacing:.1em;margin-left:4px}
+.side-panel ul{list-style:none;display:flex;flex-direction:column;gap:11px;margin-top:2px}
+.side-panel ul li{display:flex;justify-content:space-between;font-size:12.5px;color:#a8c0b3;padding-bottom:10px;border-bottom:1px dashed rgba(127,240,168,.14)}
+.side-panel ul li span{color:var(--clover2);font-variant-numeric:tabular-nums}
+.side-panel .note{font-size:11.5px;color:#7b9487;line-height:1.7;margin-top:auto}
+
+/* ============ FAQ / 禁规 ============ */
+.rules{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.rule{
+  padding:24px 26px;border-radius:14px;background:rgba(16,22,18,.7);
+  border:1px solid rgba(127,240,168,.11);border-left:3px solid var(--clover);
+  transition:.32s;
+}
+.rule:hover{background:rgba(22,32,24,.95);border-left-color:var(--acid);transform:translateX(4px)}
+.rule .q{display:flex;align-items:flex-start;gap:12px;font-size:15px;font-weight:800;color:#eafff2;margin-bottom:9px}
+.rule .q b{color:var(--clover2);font-size:13px;letter-spacing:.1em;flex:none;margin-top:2px}
+.rule p{font-size:13px;color:#8fa79a;line-height:1.8;padding-left:29px}
+
+/* ============ CTA ============ */
+.cta-band{
+  position:relative;z-index:2;margin:0 auto;max-width:1240px;padding:0 28px;
+}
+.cta-inner{
+  position:relative;overflow:hidden;border-radius:22px;padding:64px 56px;
+  background:radial-gradient(120% 160% at 12% 0%,rgba(47,191,113,.3),transparent 56%),linear-gradient(150deg,#0e1c14,#060c09);
+  border:1px solid rgba(127,240,168,.3);
+  box-shadow:0 30px 90px rgba(0,0,0,.55),inset 0 0 120px rgba(47,191,113,.1);
+  display:grid;grid-template-columns:1.4fr .6fr;gap:36px;align-items:center;
+}
+.cta-inner::after{
+  content:"";position:absolute;right:-90px;top:-90px;width:340px;height:340px;border-radius:50%;
+  border:1px dashed rgba(201,255,94,.25);animation:spin 40s linear infinite;
+}
+.cta-inner h2{font-size:clamp(24px,3vw,36px)}
+.cta-inner p{color:#a6c0b2;font-size:14.5px;margin-top:14px;max-width:520px}
+.cta-form{display:flex;gap:10px;margin-top:28px;flex-wrap:wrap}
+.cta-form input{
+  flex:1;min-width:220px;padding:14px 18px;border-radius:11px;font-size:14px;
+  background:rgba(5,12,8,.8);border:1px solid rgba(127,240,168,.28);color:#eafff2;outline:none;transition:.3s;
+}
+.cta-form input::placeholder{color:#5f7d6c}
+.cta-form input:focus{border-color:var(--clover2);box-shadow:0 0 0 3px rgba(47,191,113,.16)}
+.cta-side{position:relative;z-index:2;text-align:center}
+.cta-side .seal{
+  width:130px;height:130px;margin:0 auto;border-radius:50%;display:grid;place-items:center;
+  border:1px solid rgba(127,240,168,.4);background:rgba(5,12,8,.5);
+  box-shadow:inset 0 0 34px rgba(47,191,113,.24);
+}
+.cta-side .seal svg{width:66px;height:66px}
+.cta-side .cap{font-size:10.5px;letter-spacing:.3em;color:var(--clover2);margin-top:14px}
+.msg{font-size:12.5px;margin-top:12px;color:var(--acid);min-height:18px;letter-spacing:.05em}
+
+/* ============ FOOTER ============ */
+footer{position:relative;z-index:2;margin-top:100px;border-top:1px solid var(--line);background:rgba(5,10,7,.7);padding:58px 0 30px}
+.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:38px}
+.foot-brand p{font-size:13px;color:#8ba295;margin-top:16px;max-width:300px;line-height:1.8}
+.foot-col h5{font-size:12px;letter-spacing:.24em;color:var(--clover2);margin-bottom:16px;font-weight:700}
+.foot-col a{display:block;font-size:13px;color:#8fa79a;padding:5px 0;transition:.24s}
+.foot-col a:hover{color:var(--clover2);transform:translateX(4px)}
+.foot-bottom{
+  display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;
+  margin-top:44px;padding-top:24px;border-top:1px solid rgba(127,240,168,.1);
+  font-size:12px;color:#6f8a7a;
+}
+.foot-bottom .socials{display:flex;gap:10px}
+.foot-bottom .socials a{
+  width:34px;height:34px;border-radius:9px;display:grid;place-items:center;
+  border:1px solid rgba(127,240,168,.18);color:#8fa79a;transition:.28s;
+}
+.foot-bottom .socials a:hover{color:var(--acid);border-color:rgba(201,255,94,.5);background:rgba(201,255,94,.07)}
+.foot-bottom .socials svg{width:15px;height:15px;fill:currentColor}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* responsive */
+@media(max-width:1080px){
+  .hero-grid{grid-template-columns:1fr;gap:44px}
+  .hero-visual{height:380px;max-width:520px}
+  .gate-grid{grid-template-columns:repeat(2,1fr)}
+  .works-grid{grid-template-columns:repeat(2,1fr)}
+  .manifesto{grid-template-columns:1fr;gap:34px}
+  .mani-visual{height:330px}
+  .comm-layout{grid-template-columns:1fr}
+  .cta-inner{grid-template-columns:1fr;padding:46px 32px}
+  .cta-side{display:none}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:760px){
+  .wrap{padding:0 18px}
+  nav.links{
+    position:fixed;top:74px;left:0;right:0;flex-direction:column;gap:0;
+    background:rgba(8,12,9,.98);border-bottom:1px solid var(--line);padding:10px 20px 22px;
+    transform:translateY(-140%);transition:.4s;backdrop-filter:blur(18px);
+  }
+  nav.links.open{transform:translateY(0)}
+  nav.links a{padding:13px 0;border-bottom:1px solid rgba(127,240,168,.08);font-size:15px}
+  .nav-cta{display:none}
+  .burger{display:block}
+  .hero{padding:132px 0 60px}
+  .hero-stats{gap:22px}
+  .gate-grid{grid-template-columns:1fr}
+  .works-grid{grid-template-columns:1fr}
+  .posts{grid-template-columns:1fr}
+  .rules{grid-template-columns:1fr}
+  .cta-band{padding:0 18px}
+  .cta-inner{padding:36px 24px}
+  section{padding:68px 0}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:26px}
+  footer{margin-top:66px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="site" id="siteHeader">
+  <div class="wrap nav">
+    <a href="#top" class="brand">
+      <span class="mark">
+        <svg viewBox="0 0 32 32" fill="none">
+          <path d="M16 6c2.6 0 4.2 2.2 4.2 4.6 0 1.4-.6 2.6-1.5 3.4 1.6.5 2.8 2 2.8 3.8 0 2.3-2 4-4.6 4-1.3 0-2.4-.5-3.2-1.3-.8.8-1.9 1.3-3.2 1.3-2.6 0-4.6-1.7-4.6-4 0-1.8 1.2-3.3 2.8-3.8-.9-.8-1.5-2-1.5-3.4C7.2 8.2 8.8 6 11.4 6c1.5 0 2.8.8 3.6 2 .8-1.2 2.1-2 3.6-2z" fill="#2fbf71"/>
+          <path d="M16 17.5V27" stroke="#c9ff5e" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="16" cy="27" r="1.8" fill="#c9ff5e"/>
+        </svg>
+      </span>
+      <span class="txt">16禁止入三叶草<small>FORBIDDEN CLOVER</small></span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="#gates">十六禁区</a>
+      <a href="#works">影像作品</a>
+      <a href="#manifesto">厂牌主张</a>
+      <a href="#community">社区现场</a>
+      <a href="#rules">入禁须知</a>
+    </nav>
+    <a href="#join" class="nav-cta">
+      申请通行证
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h13M13 6l6 6-6 6" stroke="#04120a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <button class="burger" id="burger" aria-label="菜单"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" style="padding-bottom:80px">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow"><i></i>禁忌美学 · 实验影像厂牌 · 2019—2025</div>
+        <h1>16禁止入三叶草</h1>
+        <p class="hero-sub">
+          我们不拍安全的东西。<strong>16禁止入三叶草</strong>是一支以"禁区"为方法论的暗黑实验视频厂牌，
+          在十六道被划定为"禁止进入"的门后，寻找影像最原始的心跳。
+          三叶草象征幸运，而第四片叶子，从来只属于越界的人。
+        </p>
+        <div class="hero-actions">
+          <a href="#works" class="btn btn-main">
+            进入影像库
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7z" fill="#04120a"/></svg>
+          </a>
+          <a href="#gates" class="btn btn-ghost">浏览十六禁区 →</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>16<i>道</i></b><p>禁区之门</p></div>
+          <div><b>248<i>部</i></b><p>已解禁短片</p></div>
+          <div><b>12.6<i>万</i></b><p>社区共创者</p></div>
+          <div><b>97<i>%</i></b><p>完播率</p></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="gate">
+          <svg class="cloverbig" viewBox="0 0 400 400" fill="none" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <radialGradient id="gg1" cx="50%" cy="42%" r="60%">
+                <stop offset="0%" stop-color="#2fbf71" stop-opacity=".28"/>
+                <stop offset="100%" stop-color="#0a0d0b" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#7ff0a8" stop-opacity=".8"/>
+                <stop offset="100%" stop-color="#1f8f52" stop-opacity=".15"/>
+              </linearGradient>
+            </defs>
+            <rect width="400" height="400" fill="url(#gg1)"/>
+            <g stroke="url(#lg1)" stroke-width="1" opacity=".55">
+              <path d="M200 60c0 40-28 68-68 68 40 0 68 28 68 68 0-40 28-68 68-68-40 0-68-28-68-68z"/>
+              <path d="M200 140c0 40-28 68-68 68 40 0 68 28 68 68 0-40 28-68 68-68-40 0-68-28-68-68z" opacity=".6"/>
+            </g>
+            <g stroke="#2fbf71" stroke-width=".7" opacity=".28">
+              <circle cx="200" cy="200" r="150"/><circle cx="200" cy="200" r="120"/>
+              <circle cx="200" cy="200" r="90"/><circle cx="200" cy="200" r="60"/>
+            </g>
+            <g fill="#c9ff5e" opacity=".65">
+              <circle cx="60" cy="70" r="1.6"/><circle cx="344" cy="96" r="1.2"/>
+              <circle cx="86" cy="330" r="1.4"/><circle cx="320" cy="340" r="1.8"/>
+              <circle cx="200" cy="30" r="1.1"/><circle cx="368" cy="210" r="1.3"/>
+              <circle cx="30" cy="210" r="1.3"/>
+            </g>
+          </svg>
+          <div class="ring r1"></div>
+          <div class="ring r2"></div>
+          <div class="ring r3"></div>
+          <div class="core"></div>
+          <div class="badge16">16<small>NO ENTRY</small></div>
+          <div class="scan"></div>
+          <span class="corner c1"></span><span class="corner c2"></span>
+          <span class="corner c3"></span><span class="corner c4"></span>
+          <div class="tag">REC ● LIVE FROM THE FORBIDDEN ZONE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>十六道禁区之门</span><span>暗黑实验影像</span><span>越界者社区</span><span>先锋短片放映</span>
+      <span>三叶草之外</span><span>禁忌美学宣言</span><span>深夜胶片计划</span><span>创作者通行证</span>
+      <span>十六道禁区之门</span><span>暗黑实验影像</span><span>越界者社区</span><span>先锋短片放映</span>
+      <span>三叶草之外</span><span>禁忌美学宣言</span><span>深夜胶片计划</span><span>创作者通行证</span>
+    </div>
+  </div>
+
+  <!-- 16 GATES -->
+  <section id="gates" class="gates">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">SIXTEEN FORBIDDEN GATES</span>
+        <h2>十六道<span class="hi">禁区之门</span>，每一扇都通往被剪掉的那一帧</h2>
+        <p>「16禁止入三叶草」的创作坐标系由十六道门构成。它们不是噱头，而是十六种被主流镜头回避的情绪与题材。每扇门背后是一条独立的影像研究线，由驻场导演持续更新。</p>
+      </div>
+      <div class="gate-grid">
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 01</div>
+          <h3>静默之门</h3>
+          <p>完全无对白、无配乐的十分钟长镜，只保留环境底噪与呼吸。研究"沉默是否也能构成叙事"。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 02</div>
+          <h3>逆光之门</h3>
+          <p>全片只拍剪影，人物永远无法被看清。我们想验证：当脸消失，故事是否反而更完整。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal hot">
+          <div class="num"><i></i>GATE 03</div>
+          <h3>第四叶之门</h3>
+          <p>三叶草代表幸运，第四片叶是变异与越界。本门专收"不合群"的影像，是厂牌同名概念原点。</p>
+          <span class="lock">推荐</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 04</div>
+          <h3>倒带之门</h3>
+          <p>所有素材倒序播放，观众看到的"结局"其实是拍摄的第一天。时间在本门失去方向。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 05</div>
+          <h3>隔层之门</h3>
+          <p>隔着毛玻璃、水面、纱窗拍摄，人物只剩轮廓。距离感是本门唯一的表演指导。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 06</div>
+          <h3>失焦之门</h3>
+          <p>刻意让主体永远处于虚焦，背景却极致清晰。我们追问：谁才是画面里真正的主角。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 07</div>
+          <h3>午夜之门</h3>
+          <p>凌晨两点至四点的城市影像计划，无剧本、无许可、无补光。深夜是唯一的制片人。</p>
+          <span class="lock">轮换中</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 08</div>
+          <h3>锈色之门</h3>
+          <p>只拍废弃工业与锈蚀表面，用色彩做叙事。每一帧都是工业文明留下的指纹。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 09</div>
+          <h3>回声之门</h3>
+          <p>同一段台词被十六个人反复念出，逐字漂移。语言在重复中长出新的意义。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 10</div>
+          <h3>裂隙之门</h3>
+          <p>利用故障艺术与信号丢失制造"损坏的影像"，讨论数字时代的记忆丢帧。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 11</div>
+          <h3>体温之门</h3>
+          <p>极近距离的手持特写，镜头几乎贴上皮肤。研究"距离"与"亲密"的物理边界。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 12</div>
+          <h3>纸界之门</h3>
+          <p>实景与手绘动画叠印，真实场景被纸张重新书写。虚实之间只隔一层硫酸纸。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 13</div>
+          <h3>无人之门</h3>
+          <p>全片不出现人类，只用动物、风、机械与光讲述人间故事。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 14</div>
+          <h3>方言之门</h3>
+          <p>用十三种即将消失的方言录制独白，字幕只给情绪提示而非翻译。</p>
+          <span class="lock">征集进行中</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 15</div>
+          <h3>闭合之门</h3>
+          <p>全片只有一个固定机位，不剪辑、不移动，让时间自己完成叙事张力。</p>
+          <span class="lock">已解禁</span>
+        </div>
+        <div class="gate-card reveal">
+          <div class="num"><i></i>GATE 16</div>
+          <h3>第十六门</h3>
+          <p>这扇门永远关着。它是厂牌的留白，也是提醒：所有禁区之外，还有更大的禁区。</p>
+          <span class="lock">永不解禁</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKS -->
+  <section id="works">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">SELECTED WORKS</span>
+        <h2>已解禁的<span class="hi">影像作品</span></h2>
+        <p>从短片到系列微纪录片，每一部都对应十六门中的某一扇。点击卡片可查看创作手记与放映排期。</p>
+      </div>
+      <div class="works-grid">
+
+        <article class="work reveal">
+          <div class="thumb">
+            <svg viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="w1a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d2417"/><stop offset="1" stop-color="#05100a"/></linearGradient>
+                <radialGradient id="w1b" cx="60%" cy="40%" r="55%"><stop offset="0" stop-color="#2fbf71" stop-opacity=".7"/><stop offset="1" stop-color="#2fbf71" stop-opacity="0"/></radialGradient>
+              </defs>
+              <rect width="480" height="300" fill="url(#w1a)"/>
+              <rect width="480" height="300" fill="url(#w1b)"/>
+              <g fill="none" stroke="#c9ff5e" stroke-width="1.2" opacity=".7">
+                <circle cx="300" cy="130" r="60"/><circle cx="300" cy="130" r="80" stroke-dasharray="4 8"/>
+              </g>
+              <g fill="#eaffd9" opacity=".9">
+                <circle cx="300" cy="130" r="9"/>
+              </g>
+              <path d="M0 230 Q120 205 240 232 T480 220" stroke="#7ff0a8" stroke-width="1.4" fill="none" opacity=".4"/>
+            </svg>
+            <div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <div class="meta">
+            <div class="row"><span class="cat">GATE 03 · 第四叶</span><span class="dur">12:48</span></div>
+            <h3>《第四片叶子的形状》</h3>
+            <p>厂牌同名代表短片。一场关于"幸运"的逆向实验，镜头跟随一位把三叶草种进混凝土的人。</p>
+          </div>
+        </article>
+
+        <article class="work reveal">
+          <div class="thumb">
+            <svg viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="w2a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101a10"/><stop offset="1" stop-color="#040805"/></linearGradient>
+              </defs>
+              <rect width="480" height="300" fill="url(#w2a)"/>
+              <g stroke="#2fbf71" stroke-width="1" opacity=".55">
+                <path d="M40 300 L240 40 L440 300" fill="none"/>
+                <path d="M90 300 L240 90 L390 300" fill="none" opacity=".6"/>
+                <path d="M140 300 L240 140 L340 300" fill="none" opacity=".4"/>
+              </g>
+              <circle cx="240" cy="180" r="52" fill="#c9ff5e" opacity=".1"/>
+              <circle cx="240" cy="180" r="30" fill="none" stroke="#c9ff5e" stroke-width="1.4"/>
+              <text x="240" y="186" text-anchor="middle" font-size="20" fill="#c9ff5e" font-family="monospace">02</text>
+            </svg>
+            <div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <div class="meta">
+            <div class="row"><span class="cat">GATE 02 · 逆光</span><span class="dur">08:21</span></div>
+            <h3>《看不清的人》</h3>
+            <p>全片零面部特写。我们用剪影记录了十二位夜班工作者，观众只能凭声音与姿态辨认他们。</p>
+          </div>
+        </article>
+
+        <article class="work reveal">
+          <div class="thumb">
+            <svg viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="w3a" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0a1510"/><stop offset="1" stop-color="#08120c"/></linearGradient>
+              </defs>
+              <rect width="480" height="300" fill="url(#w3a)"/>
+              <g stroke="#7ff0a8" stroke-width="1" opacity=".4">
+                <line x1="0" y1="60" x2="480" y2="60"/><line x1="0" y1="120" x2="480" y2="120"/>
+                <line x1="0" y1="180" x2="480" y2="180"/><line x1="0" y1="240" x2="480" y2="240"/>
+              </g>
+              <path d="M30 240 L120 150 L200 190 L300 90 L400 140 L460 70" fill="none" stroke="#c9ff5e" stroke-width="2"/>
+              <g fill="#c9ff5e">
+                <circle cx="120" cy="150" r="4"/><circle cx="300" cy="90" r="4"/><circle cx="400" cy="140" r="4"/>
+              </g>
+            </svg>
+            <div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <div class="meta">
+            <div class="row"><span class="cat">GATE 10 · 裂隙</span><span class="dur">06:04</span></div>
+            <h3>《丢帧的十七秒》</h3>
+            <p>一次刻意的信号故障实验。被删除的十七秒成为全片核心，观众被迫在缺失中补全故事。</p>
+          </div>
+        </article>
+
+        <article class="work reveal">
+          <div class="thumb">
+            <svg viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <radialGradient id="w4a" cx="30%" cy="70%" r="70%"><stop offset="0" stop-color="#1e5a37" stop-opacity=".85"/><stop offset="1" stop-color="#040805"/></radialGradient>
+              </defs>
+              <rect width="480" height="300" fill="url(#w4a)"/>
+              <g fill="none" stroke="#eaffd9" stroke-width="1" opacity=".3">
+                <rect x="70" y="60" width="340" height="180" rx="6"/>
+                <rect x="100" y="90" width="280" height="120" rx="4" stroke-dasharray="3 6"/>
+              </g>
+              <text x="240" y="165" text-anchor="middle" font-size="42" font-weight="bold" fill="#c9ff5e" opacity=".85" font-family="monospace">●REC</text>
+              <text x="240" y="200" text-anchor="middle" font-size="11" fill="#7ff0a8" letter-spacing="6" font-family="monospace">MIDNIGHT</text>
+            </svg>
+            <div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <div class="meta">
+            <div class="row"><span class="cat">GATE 07 · 午夜</span><span class="dur">22:15</span></div>
+            <h3>《两点零四分的城市》</h3>
+            <p>无剧本深夜计划的首部成片。摄像机跟着外卖员、清洁工与失眠者，穿过同一座城市的背面。</p>
+          </div>
+        </article>
+
+        <article class="work reveal">
+          <div class="thumb">
+            <svg viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice">
+              <rect width="480" height="300" fill="#060e09"/>
+              <g opacity=".8">
+                <circle cx="120" cy="150" r="70" fill="none" stroke="#2fbf71" stroke-width="1.2"/>
+                <circle cx="240" cy="150" r="70" fill="none" stroke="#7ff0a8" stroke-width="1.2" opacity=".7"/>
+                <circle cx="360" cy="150" r="70" fill="none" stroke="#c9ff5e" stroke-width="1.2" opacity=".55"/>
+              </g>
+              <path d="M170 150 A70 70 0 0 1 240 80" stroke="#c9ff5e" stroke-width="3" fill="none"/>
+              <path d="M290 150 A70 70 0 0 1 360 220" stroke="#c9ff5e" stroke-width="3" fill="none"/>
+            </svg>
+            <div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <div class="meta">
+            <div class="row"><span class="cat">GATE 09 · 回声</span><span class="dur">09:37</span></div>
+            <h3>《同一句话的十六种说法》</h3>
+            <p>十六位素人反复念同一句台词，从克制到失控。语言在重复里解体，又在重复里重组。</p>
+          </div>
+        </article>
+
+        <article class="work reveal">
+          <div class="thumb">
+            <svg viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="w6a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#132a1c"/><stop offset="1" stop-color="#040806"/></linearGradient>
+              </defs>
+              <rect width="480" height="300" fill="url(#w6a)"/>
+              <g fill="none" stroke="#7ff0a8" stroke-width="1.1" opacity=".55">
+                <path d="M60 240 L240 60 L420 240 Z"/>
+                <path d="M120 240 L240 120 L360 240 Z"/>
+                <path d="M180 240 L240 180 L300 240 Z"/>
+              </g>
+              <circle cx="240" cy="210" r="10" fill="#c9ff5e" opacity=".9"/>
+            </svg>
+            <div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <div class="meta">
+            <div class="row"><span class="cat">GATE 13 · 无人</span><span class="dur">14:02</span></div>
+            <h3>《没有人的下午》</h3>
+            <p>一座城中村在午后的全部影像：猫、晾衣绳、风、脱落的墙皮。没有人，但处处是人。</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MANIFESTO -->
+  <section id="manifesto">
+    <div class="wrap manifesto">
+      <div class="mani-visual reveal">
+        <svg viewBox="0 0 500 420" preserveAspectRatio="xMidYMid slice" fill="none">
+          <defs>
+            <radialGradient id="mv1" cx="50%" cy="48%" r="55%">
+              <stop offset="0" stop-color="#2fbf71" stop-opacity=".55"/>
+              <stop offset="100%" stop-color="#050a07" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <rect width="500" height="420" fill="#060d09"/>
+          <circle cx="250" cy="205" r="190" fill="url(#mv1)"/>
+          <g stroke="#2fbf71" stroke-width="1" opacity=".4">
+            <circle cx="250" cy="205" r="150"/><circle cx="250" cy="205" r="110"/>
+            <circle cx="250" cy="205" r="70"/><circle cx="250" cy="205" r="30"/>
+          </g>
+          <g stroke="#c9ff5e" stroke-width="1.4" opacity=".8">
+            <path d="M250 55 L250 355"/><path d="M100 205 L400 205"/>
+            <path d="M144 99 L356 311"/><path d="M356 99 L144 311"/>
+          </g>
+          <g fill="#c9ff5e">
+            <circle cx="250" cy="55" r="3"/><circle cx="250" cy="355" r="3"/>
+            <circle cx="100" cy="205" r="3"/><circle cx="400" cy="205" r="3"/>
+            <circle cx="144" cy="99" r="2.6"/><circle cx="356" cy="311" r="2.6"/>
+            <circle cx="356" cy="99" r="2.6"/><circle cx="144" cy="311" r="2.6"/>
+          </g>
+          <g transform="translate(250 205)">
+            <path d="M0 -46c14 0 24 12 24 26 0 8-3 15-9 20 9 3 15 11 15 20 0 13-11 23-26 23-7 0-13-2-18-7-5 5-11 7-18 7-15 0-26-10-26-23 0-9 6-17 15-20-6-5-9-12-9-20 0-14 10-26 24-26 8 0 15 4 20 10 5-6 12-10 20-10z" fill="#0e2a1a" stroke="#7ff0a8" stroke-width="1.6"/>
+            <path d="M0 20V58" stroke="#c9ff5e" stroke-width="2.4" stroke-linecap="round"/>
+          </g>
+        </svg>
+        <div class="veil"></div>
+        <div class="txt">MANIFESTO ／ 越界者的三点共识</div>
+      </div>
+      <div class="reveal">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="sec-tag">OUR MANIFESTO</span>
+          <h2>我们把"<span class="hi">禁止进入</span>"当成一张邀请函</h2>
+          <p>「16禁止入三叶草」这个名字来自一次争论：有人说影像该像三叶草一样安全、幸运、人人可摘。我们不同意。真正动人的画面，往往长在第十六片叶子上——那个没人敢去的地方。</p>
+        </div>
+        <ul class="mani-list">
+          <li>
+            <div class="idx">01</div>
+            <div>
+              <h4>拒绝安全的镜头</h4>
+              <p>我们不做四平八稳的产品视频。每条片子的第一版脚本，都必须包含一个会让客户皱眉的镜头——那是它活着的证据。</p>
+            </div>
+          </li>
+          <li>
+            <div class="idx">02</div>
+            <div>
+              <h4>用限制换自由</h4>
+              <p>十六道门本身就是十六种限制：无对白、无面部、无剪辑、无人物。限制不是牢笼，而是逼出风格的最短路径。</p>
+            </div>
+          </li>
+          <li>
+            <div class="idx">03</div>
+            <div>
+              <h4>社区即片场</h4>
+              <p>十二万共创者不是观众，是外景地、是演员库、是剪辑意见箱。每部片子至少有一帧来自社区投稿。</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY -->
+  <section id="community" class="community">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">COMMUNITY LIVE</span>
+        <h2>社区<span class="hi">现场</span>：越界的人从不孤单</h2>
+        <p>这里是厂牌的公共客厅。每晚十点后最活跃，讨论剧本、交换外景地、约深夜放映。以下为实时精选。</p>
+      </div>
+      <div class="comm-layout">
+        <div class="posts">
+          <div class="post reveal">
+            <div class="head">
+              <div class="avatar">叶</div>
+              <div>
+                <div class="who">叶隙</div>
+                <div class="when">GATE 07 · 12 分钟前</div>
+              </div>
+            </div>
+            <p>昨晚在旧纺织厂拍到了一段绝佳的逆光素材，铁窗把光切成一条一条的。有人想接这个机位拍第十六门的留白吗？</p>
+            <div class="foot">
+              <span>♡ 312</span><span>↺ 48</span><span>◍ 讨论</span>
+            </div>
+          </div>
+          <div class="post reveal">
+            <div class="head">
+              <div class="avatar">雾</div>
+              <div>
+                <div class="who">雾岛剪辑室</div>
+                <div class="when">GATE 10 · 46 分钟前</div>
+              </div>
+            </div>
+            <p>《丢帧的十七秒》里那个卡顿其实是我硬盘坏道造成的，导演说"留着"。所以故障不是错误，是素材在说话。</p>
+            <div class="foot">
+              <span>♡ 508</span><span>↺ 73</span><span>◍ 讨论</span>
+            </div>
+          </div>
+          <div class="post reveal">
+            <div class="head">
+              <div class="avatar">十</div>
+              <div>
+                <div class="who">十六号线</div>
+                <div class="when">GATE 14 · 2 小时前</div>
+              </div>
+            </div>
+            <p>方言征集已经收到 46 份录音，最小的一位来自 7 岁小朋友。他念的是奶奶教的那句"回来吃饭"。</p>
+            <div class="foot">
+              <span>♡ 764</span><span>↺ 129</span><span>◍ 讨论</span>
+            </div>
+          </div>
+          <div class="post reveal">
+            <div class="head">
+              <div class="avatar">禁</div>
+              <div>
+                <div class="who">禁止入内_小号</div>
+                <div class="when">GATE 16 · 4 小时前</div>
+              </div>
+            </div>
+            <p>第十六门今天又没开。但我发现门口的光每天不一样，也许那扇门的意义就是让人一直来。</p>
+            <div class="foot">
+              <span>♡ 1024</span><span>↺ 201</span><span>◍ 讨论</span>
+            </div>
+          </div>
+        </div>
+        <aside class="side-panel reveal">
+          <h4>本月社区曲线</h4>
+          <div class="big">12.6<small>万 共创者</small></div>
+          <ul>
+            <li><span>本周投稿</span><span>386 条</span></li>
+            <li><span>深夜放映</span><span>7 场</span></li>
+            <li><span>方言录音</span><span>46 份</span></li>
+            <li><span>外景地共享</span><span>29 处</span></li>
+            <li><span>待解禁作品</span><span>4 部</span></li>
+          </ul>
+          <div class="note">社区每满 1000 位新成员，就会解锁一扇 GATE 的创作手记全文。当前进度：676 / 1000。</div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- RULES -->
+  <section id="rules">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">BEFORE YOU ENTER</span>
+        <h2>入禁<span class="hi">须知</span>：关于这十六道门，你可能想知道</h2>
+        <p>我们常被问到的几个问题，统一放在这里。看完再决定要不要推开第一扇门。</p>
+      </div>
+      <div class="rules">
+        <div class="rule reveal">
+          <div class="q"><b>Q1</b>"16禁止入三叶草"到底是一支团队还是一个企划？</div>
+          <p>是一支常驻团队，也是一套持续运转的创作企划。团队负责策展、制片与后期，十六道门则邀请外部导演、摄影师与素人共创者共同填满。每扇门都有独立的档案与更新节奏。</p>
+        </div>
+        <div class="rule reveal">
+          <div class="q"><b>Q2</b>为什么偏偏是"16"这个数字？</div>
+          <p>16 是我们的"超出上限"：十六道门之后仍然有门，第十六门永远关着。这个数字既是结构，也是态度——所有清单都会在最后一格失效。</p>
+        </div>
+        <div class="rule reveal">
+          <div class="q"><b>Q3</b>作品会在哪些地方放映？</div>
+          <p>线上以厂牌自有频道为主，线下每月有两到三场小规模深夜放映，地点通常是旧厂房、书店或社区空间。通行证持有者可优先报名，名额不公开售卖。</p>
+        </div>
+        <div class="rule reveal">
+          <div class="q"><b>Q4</b>普通人可以参与创作吗？</div>
+          <p>可以，而且是必须。社区投稿是我们素材的重要来源。你只需要提交一段 30 秒以上的素材或一个具体的外景地，通过初审后就会进入对应门的工作流，署名与分成按贡献计算。</p>
+        </div>
+        <div class="rule reveal">
+          <div class="q"><b>Q5</b>"三叶草"在这里指什么？</div>
+          <p>指代那些被默认安全、被广泛接受、被快速消费的影像。三叶草没有错，只是我们不满足于三片叶子。第四片叶子是变异，也是我们的工作对象。</p>
+        </div>
+        <div class="rule reveal">
+          <div class="q"><b>Q6</b>我想合作或投递企划，怎么开始？</div>
+          <p>下方通行证表单即可，注明你对应的门编号与一段不超过 300 字的构想。我们更希望看到具体的地点、时间与限制，而不是概念词汇的堆叠。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta-band" id="join">
+    <div class="cta-inner reveal">
+      <div>
+        <h2>申请一张<span style="color:var(--acid)">通行证</span>，推开你的第一扇门</h2>
+        <p>留下邮箱，我们会寄送当期放映排期、十六门创作手记摘录，以及一份《越界者入门手册》。不打扰，只在有片子上映时出现。</p>
+        <form class="cta-form" id="joinForm" novalidate>
+          <input type="email" id="emailInput" placeholder="你的邮箱地址" autocomplete="email">
+          <button type="submit" class="btn btn-main">提交申请</button>
+        </form>
+        <div class="msg" id="formMsg"></div>
+      </div>
+      <div class="cta-side">
+        <div class="seal">
+          <svg viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="32" r="29" stroke="#7ff0a8" stroke-width="1" stroke-dasharray="3 5"/>
+            <path d="M32 14c5 0 9 4 9 9 0 3-1 6-4 8 3 1 5 4 5 7 0 5-4 9-10 9-2 0-5-1-7-3-2 2-5 3-7 3-6 0-10-4-10-9 0-3 2-6 5-7-3-2-4-5-4-8 0-5 4-9 9-9 3 0 6 2 7 4 1-2 4-4 7-4z" fill="#0e2a1a" stroke="#c9ff5e" stroke-width="1.4"/>
+            <path d="M32 33v14" stroke="#c9ff5e" stroke-width="2.2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="cap">PASS · NO.016</div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="#top" class="brand">
+          <span class="mark">
+            <svg viewBox="0 0 32 32" fill="none">
+              <path d="M16 6c2.6 0 4.2 2.2 4.2 4.6 0 1.4-.6 2.6-1.5 3.4 1.6.5 2.8 2 2.8 3.8 0 2.3-2 4-4.6 4-1.3 0-2.4-.5-3.2-1.3-.8.8-1.9 1.3-3.2 1.3-2.6 0-4.6-1.7-4.6-4 0-1.8 1.2-3.3 2.8-3.8-.9-.8-1.5-2-1.5-3.4C7.2 8.2 8.8 6 11.4 6c1.5 0 2.8.8 3.6 2 .8-1.2 2.1-2 3.6-2z" fill="#2fbf71"/>
+              <path d="M16 17.5V27" stroke="#c9ff5e" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="16" cy="27" r="1.8" fill="#c9ff5e"/>
+            </svg>
+          </span>
+          <span class="txt">16禁止入三叶草<small>FORBIDDEN CLOVER</small></span>
+        </a>
+        <p>一支以"禁区"为方法论的暗黑实验影像厂牌。十六道门，一部接一部地拍，一帧接一帧地越界。</p>
+      </div>
+      <div class="foot-col">
+        <h5>禁区</h5>
+        <a href="#gates">01 静默之门</a>
+        <a href="#gates">03 第四叶之门</a>
+        <a href="#gates">07 午夜之门</a>
+        <a href="#gates">10 裂隙之门</a>
+        <a href="#gates">16 第十六门</a>
+      </div>
+      <div class="foot-col">
+        <h5>内容</h5>
+        <a href="#works">影像作品</a>
+        <a href="#manifesto">厂牌主张</a>
+        <a href="#community">社区现场</a>
+        <a href="#rules">入禁须知</a>
+      </div>
+      <div class="foot-col">
+        <h5>联络</h5>
+        <a href="#join">申请通行证</a>
+        <a href="#join">合作与投递</a>
+        <a href="#join">线下放映</a>
+        <a href="#join">媒体资料</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2019—2025 16禁止入三叶草 FORBIDDEN CLOVER · 保留所有权利 · 影像未经许可请勿转载</div>
+      <div class="socials">
+        <a href="#top" aria-label="频道"><svg viewBox="0 0 24 24"><path d="M4 4h16v12H8l-4 4V4z"/></svg></a>
+        <a href="#top" aria-label="社区"><svg viewBox="0 0 24 24"><circle cx="8" cy="9" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M2 20c0-3 3-5 6-5s6 2 6 5zM14 20c0-2 1.6-3.6 3.6-3.6S22 18 22 20z"/></svg></a>
+        <a href="#top" aria-label="邮箱"><svg viewBox="0 0 24 24"><path d="M3 5h18v14H3zM3 6l9 7 9-7"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- header scrolled ---------- */
+  var header = document.getElementById('siteHeader');
+  var onScroll = function(){
+    if(window.scrollY > 20){ header.classList.add('scrolled'); }
+    else { header.classList.remove('scrolled'); }
+  };
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  /* ---------- mobile nav ---------- */
+  var burger = document.getElementById('burger');
+  var navLinks = document.getElementById('navLinks');
+  burger.addEventListener('click', function(){
+    burger.classList.toggle('on');
+    navLinks.classList.toggle('open');
+  });
+  Array.prototype.forEach.call(navLinks.querySelectorAll('a'), function(a){
+    a.addEventListener('click', function(){
+      burger.classList.remove('on');
+      navLinks.classList.remove('open');
+    });
+  });
+
+  /* ---------- reveal on scroll ---------- */
+  var reveals = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          en.target.classList.add('in');
+          io.unobserve(en.target);
+        }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+    reveals.forEach(function(el){ io.observe(el); });
+  } else {
+    reveals.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  /* ---------- gate cards tilt-ish hover accent ---------- */
+  var gateCards = document.querySelectorAll('.gate-card');
+  gateCards.forEach(function(card){
+    card.addEventListener('mouseenter', function(){
+      card.style.setProperty('--glow','0 0 40px rgba(47,191,113,.35)');
+    });
+  });
+
+  /* ---------- work card click ripple / notice ---------- */
+  var works = document.querySelectorAll('.work');
+  works.forEach(function(w){
+    w.addEventListener('click', function(){
+      var meta = w.querySelector('.meta h3');
+      var name = meta ? meta.textContent : '该作品';
+      w.style.transition = 'box-shadow .4s';
+      w.style.boxShadow = '0 0 0 2px rgba(201,255,94,.55), 0 24px 60px rgba(0,0,0,.6)';
+      setTimeout(function(){ w.style.boxShadow=''; }, 700);
+      console.log('[16禁止入三叶草] 正在为 ' + name + ' 加载创作手记…');
+    });
+  });
+
+  /* ---------- form ---------- */
+  var form = document.getElementById('joinForm');
+  var emailInput = document.getElementById('emailInput');
+  var msg = document.getElementById('formMsg');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var val = (emailInput.value || '').trim();
+    var ok = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(val);
+    if(!ok){
+      msg.style.color = '#ff8a6b';
+      msg.textContent = '邮箱格式好像不太对，再检查一下。';
+      return;
+    }
+    msg.style.color = '#c9ff5e';
+    msg.textContent = '通行证申请已记录，放映排期将寄往 ' + val + '。';
+    emailInput.value = '';
+  });
+
+  /* ---------- smooth anchor for older browsers ---------- */
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if(id.length > 1){
+        var el = document.querySelector(id);
+        if(el){
+          e.preventDefault();
+          var top = el.getBoundingClientRect().top + window.pageYOffset - 84;
+          window.scrollTo({top:top, behavior:'smooth'});
+        }
+      }
+    });
+  });
+
+  /* ---------- subtle parallax on hero visual ---------- */
+  var visual = document.querySelector('.hero-visual');
+  if(visual && window.matchMedia('(min-width: 900px)').matches){
+    window.addEventListener('mousemove', function(e){
+      var cx = (e.clientX / window.innerWidth - .5);
+      var cy = (e.clientY / window.innerHeight - .5);
+      visual.style.transform = 'translate3d(' + (cx * 14) + 'px,' + (cy * 14) + 'px,0)';
+      visual.style.transition = 'transform .25s ease-out';
+    });
+  }
+
+  /* ---------- live marquee pause on hover ---------- */
+  var track = document.querySelector('.marquee-track');
+  if(track){
+    track.addEventListener('mouseenter', function(){ track.style.animationPlayState='paused'; });
+    track.addEventListener('mouseleave', function(){ track.style.animationPlayState='running'; });
+  }
+
+  /* ---------- counter on hero stats ---------- */
+  var stats = document.querySelectorAll('.hero-stats b');
+  function animateNum(el){
+    var raw = el.textContent;
+    var numStr = raw.replace(/[^\d.]/g,'');
+    var suffix = raw.replace(/[\d.]/g,'');
+    var target = parseFloat(numStr);
+    if(isNaN(target)) return;
+    var isFloat = numStr.indexOf('.') > -1;
+    var start = 0;
+    var dur = 1200;
+    var t0 = performance.now();
+    function step(t){
+      var p = Math.min((t - t0) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var val = target * eased;
+      el.innerHTML = (isFloat ? val.toFixed(1) : Math.floor(val)) + (suffix ? '<i>' + suffix + '</i>' : '');
+      if(p < 1) requestAnimationFrame(step);
+      else el.innerHTML = numStr + (suffix ? '<i>' + suffix + '</i>' : '');
+    }
+    requestAnimationFrame(step);
+  }
+  var statsFired = false;
+  var heroSection = document.querySelector('.hero');
+  if('IntersectionObserver' in window && heroSection){
+    var sio = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting && !statsFired){
+          statsFired = true;
+          stats.forEach(animateNum);
+          sio.disconnect();
+        }
+      });
+    }, {threshold:.3});
+    sio.observe(heroSection);
+  }
+})();
+</script>
+</body>
+                                                                                                              </html>
